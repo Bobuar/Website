@@ -1,0 +1,122 @@
+/* Making the page really long breaks it for some reason */
+
+:root{
+    --background-colour:rgb(38, 34, 33);
+    --text-colour:white;
+    --highlight-colour: rgb(88, 63, 154);
+    --highlight-colour-2: rgb(240,240,240)/*white*/ /*rgb(237, 233, 128)*/;
+    --text-colour-rollover:rgb(38, 34, 33) /*black*/;
+
+    --main-font: 'Courier New', Courier, monospace;
+
+    /* --non-essential-display: "block"; */
+}
+
+header{background-color: var(--background-colour);display: inline-block; width:100%}
+nav{
+    background-color: var(--background-colour); 
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+
+    padding-top:1rem;
+    padding-bottom:3rem;
+
+    
+    button{
+       /* margin-left: 1rem;
+        margin-right: 1rem */
+    }
+    }
+main{
+    background-color: var(--background-colour);
+    text-align: center;
+    display: inline-block;
+    width:100%
+    }
+#page{
+    width:75%;
+    border: 0.5rem dashed var(--text-colour);
+    margin: auto;
+    padding:1rem;
+}
+
+footer{
+    background-color: var(--background-colour);
+    padding:5rem
+}
+
+body{
+    background-color: var(--background-colour);
+    color: var(--text-colour);
+    font-family: var(--main-font);
+}
+
+h2{
+    font-size: clamp(3rem, 10vw, 5rem);
+    /* font-size: 5rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* overflow-wrap: break-word;
+    hyphens: auto; */
+    
+    
+}
+
+h3{
+    /* font-size: 3rem; */
+    font-size: clamp(1rem, 9vw, 3rem);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    /* border:1px solid red; */
+    
+    /* overflow-wrap: break-word;
+    hyphens: auto; */
+}
+
+p{
+    font-size: 2rem;
+    text-wrap: balance;
+}
+
+button{
+        font-family: var(--main-font); /* Needed for some reason? */
+        font-size: 2rem;
+        /*background-color: var(--highlight-colour); */
+        color: var(--text-colour);
+        padding-right:1rem;
+        padding-left:1rem;
+        text-align: center;
+        border: 0.4rem solid var(--highlight-colour-2);
+        background-color:transparent;
+    }
+
+button:focus, button:hover, .highlightButton{
+    background-color: var(--highlight-colour-2);
+    border: 5px solid var(--highlight-colour);
+    color: var(--text-colour-rollover);
+}
+
+hr{ 
+    border:0.2rem dashed var(--highlight-colour);
+}
+
+a:link{
+    color: inherit;
+}
+
+a:visited{
+    color: inherit;
+}
+
+a:focus{
+    border: 5px solid var(--highlight-colour);
+}
+
+.tooLongLink{
+    /* <wbr> tag works better */
+    margin-top:2rem;
+    overflow-x: auto;
+}
+
+/* .non-essential{display:var(--non-essential-display);} */

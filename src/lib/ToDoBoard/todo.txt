@@ -1,0 +1,47 @@
+TODO:
+
+********************************************************************************
+
+FIX:
+    Buttons that link to other pages <a><button> links extend the whole page (left to right)
+
+    R press eateregg needs fixing - Did nothing but is fixed?
+
+    "Hovering" on project boxes on small screens doesn't work
+
+    Tabbing to the donate link causes it to add a y-scroll bar?
+    Also happens on other links with potential scroll bars
+
+********************************************************************************
+
+ADD:
+    Check accessibility - Images need alt text, all pages should work with screen readers...
+    Think it's pretty good, most images don't actually need alt text (they are for "decoration")
+    Need to go through - https://www.w3.org/WAI/WCAG22/quickref/
+
+    Hover animations should be togleable in accessibility
+
+    Make projects open source and link to them 
+
+********************************************************************************
+
+CHANGE:
+    Could there be a way of activating the "r" easteregg on small screen mode?
+
+    Footer image needs to be higher quality
+
+    Footer should be hidden becasue of the "non-essential" system
+
+    Instead of the datapacks button on the Programming projects page, there should be project boxes
+    linking to each of the datapacks on Modrinth
+
+********************************************************************************
+
+TO THINK ABOUT:
+    Donate link should be button?
+
+    Navigation button uses "tabindex=-1" on the <a> to make them not tabable (so you can only
+    tab to the actual button) should this be changed so the button runs a function to go to the
+    next page?
+
+    Tabbing and holding enter is a really easy way to "reveal" the telephone number

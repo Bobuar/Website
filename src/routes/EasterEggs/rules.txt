@@ -1,0 +1,32 @@
+These rules MUST be followed when creating an Easter Egg!
+
+Easter Eggs must be created quicky.
+Easter Eggs do not need maintance.
+Easter Eggs do not need to work and there is no promise they will.
+References are prefered.
+
+Rules:
+1. Easter Eggs should be difficult to find
+2. Easter Eggs should be rewarding when found
+3. Poorly written code, if written quicky, is prefered
+4. The activation of an Easter Egg must be done through the Easter Egg system. Poor code should be contained to only the Easter Egg page and should not leak to the rest of the website.
+5. Easter Eggs MUST NOT leak. The code must be contained.
+6. Easter Eggs MUST NOT leak. The code will be contained.
+7. Easter Eggs WILL NOT leak. The code will be contained.
+8. I am the Easter Egg code guardian, I am willing to sacrifice my own life for the Easter Egg code.
+9. Rules 5-8 must be repeated at least 5 times while looking in a mirror before working on an Easter Egg. 
+10. - This  rule is silent out of respect to the Easter Egg Code Guardians
+11. AAAAAHHHHHHH!!!! - This rule is loud out of respect ot the Easter Egg Guardians. 
+12. 🐈 - This rule is just the cat Emoji? Todo: fix
+13. This rule is very unlucky so we chose to move it to rule 14 for more sucess. 
+14. Flip a coin, if heads, you win.
+15. If unsure, consult the runes.
+16. If still unsure, consult the runes.
+17. Never ask the runes, always consult them
+18. How is number 14 a rule? Todo: Remove rules that aren't rules.
+19. I think there's something moving in here...
+20. THE RULE MONSTER DOES NOT LIKE RULES BEING CHANGED! NEVER CHANGE RULES!!
+21. RULES CAN ONLY BE ADDED, NOT CHANGED. DO NOT REMOVE ANY RULES!
+21.1. Apparently you can add rules inbetween rules.
+22. The order and number of rules is important. DO NOT CHANGE RULES.
+23. Do not change spelling mistakes, they are not mistakes just happy accidents

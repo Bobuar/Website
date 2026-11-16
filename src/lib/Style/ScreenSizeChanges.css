@@ -1,0 +1,46 @@
+:root{
+    --small-screen-thrshold: 70rem;
+    --isSmallScreen: 0;
+}
+
+@media (max-width:70rem){
+    :root{
+        --isSmallScreen:1;
+    }
+
+    #page{
+        width:100%;
+        border: none;
+        padding:0;
+    }
+
+    nav{
+        padding-bottom: 0;
+    }
+
+    #obuar{display: none;}
+
+    .projectBox{
+        --box-width: 100%
+        /* width: 100% !important;    */
+    }
+
+    #switchBox{
+        width:100% !important;
+    }
+
+    p{
+        /* text-align: justify;
+        text-align-last: center;
+        margin: 2rem; */
+    }
+
+    footer{display:none;} /* Doesn't currently contain anything useful? */
+}
+
+@media (max-width:50rem){
+    /* .non-essential{
+        display:var(--non-essential-display);
+    } */
+}
+
