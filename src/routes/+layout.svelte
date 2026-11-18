@@ -1,5 +1,4 @@
 <script lang="ts">
-	import underConstruction from "$lib/assets/Images/Under Construction/mini-eggs.jpg";
 	import logo from "$lib/assets/Images/Logo/logo.png";
 	import '$lib/Style/main.css';
 	import '$lib/Style/ScreenSizeChanges.css';
